@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;" lang="ua"><head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Розклад</title>
+    <link rel="stylesheet" href="page.css" media="screen">
+<link rel="stylesheet" href="Розклад.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="page.js" defer=""></script>
+    <link rel="icon" href="images/favicon.png">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
+    <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "Cursova"
+}</script>
+    <meta name="theme-color" content="#876cc4">
+    <meta property="og:title" content="Розклад">
+    <meta property="og:description" content="">
+    <meta property="og:type" content="website">
+  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
+  <body class="u-body u-xl-mode" data-lang="ru"><header class="u-clearfix u-container-align-center u-header u-header" id="sec-de96"><div class="u-clearfix u-sheet u-sheet-1">
+        <nav class="u-menu u-menu-one-level u-offcanvas u-menu-1">
+          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
+            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-text-hover-color u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#" data-lang-ru="{&quot;content&quot;:&quot;<svg class=\&quot;u-svg-link\&quot; viewBox=\&quot;0 0 24 24\&quot;><use xmlns:xlink=\&quot;http://www.w3.org/1999/xlink\&quot; xlink:href=\&quot;#menu-hamburger\&quot;></use></svg><svg class=\&quot;u-svg-content\&quot; version=\&quot;1.1\&quot; id=\&quot;menu-hamburger\&quot; viewBox=\&quot;0 0 16 16\&quot; x=\&quot;0px\&quot; y=\&quot;0px\&quot; xmlns:xlink=\&quot;http://www.w3.org/1999/xlink\&quot; xmlns=\&quot;http://www.w3.org/2000/svg\&quot;>    <g>        <rect y=\&quot;1\&quot; width=\&quot;16\&quot; height=\&quot;2\&quot;></rect>        <rect y=\&quot;7\&quot; width=\&quot;16\&quot; height=\&quot;2\&quot;></rect>        <rect y=\&quot;13\&quot; width=\&quot;16\&quot; height=\&quot;2\&quot;></rect>    </g></svg>&quot;,&quot;href&quot;:&quot;#&quot;}">
+              <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
+              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
+</g></svg>
+            </a>
+          </div>
+          <div class="u-custom-menu u-nav-container">
+            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-base" href="Головна.html" style="padding: 10px 20px;">Головна</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-base" href="Відвідуваність.html" style="padding: 10px 20px;">Відвідуваність</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-base" href="Розклад.html" style="padding: 10px 20px;">Розклад</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-base" href="Групи.html" style="padding: 10px 20px;">Групи</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-base" href="Студенти.html" style="padding: 10px 20px;">Студенти</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-3-base" style="padding: 10px 20px;">Налаштування</a>
+</li></ul>
+          </div>
+          <div class="u-custom-menu u-nav-container-collapse">
+            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
+              <div class="u-inner-container-layout u-sidenav-overflow">
+                <div class="u-menu-close"></div>
+                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Головна.html">Головна</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Відвідуваність.html">Відвідуваність</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Розклад.html">Розклад</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Групи.html">Групи</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Студенти.html">Студенти</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Настройки-блек.html">Налаштування</a>
+</li></ul>
+              </div>
+            </div>
+            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
+          </div>
+        </nav>
+      </div></header>
+    <section class="u-black u-clearfix u-section-1" id="sec-10d4">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
+        <h2 class="u-align-center u-text u-text-default u-text-1">Швидка навігація</h2>
+        <a href="Розклад.html#sec-7644" class="u-active-grey-60 u-border-2 u-border-grey-75 u-btn u-button-style u-grey-75 u-hover-grey-60 u-radius-4 u-text-body-alt-color u-btn-1"><span class="u-file-icon u-icon u-text-white u-icon-1"><img src="images/4699800-2581ef5b.png" alt=""></span>&nbsp;ОПЗ - 16
+        </a>
+        <a href="Розклад.html#carousel_5d7d" class="u-active-grey-60 u-border-2 u-border-grey-75 u-btn u-button-style u-grey-70 u-hover-grey-60 u-radius-4 u-text-body-alt-color u-btn-2"><span class="u-file-icon u-icon u-text-white u-icon-2"><img src="images/4699800-2581ef5b.png" alt=""></span>&nbsp;ОПЗ - 26
+        </a>
+        <a href="Розклад.html#carousel_1946" class="u-active-grey-60 u-border-2 u-border-grey-75 u-btn u-button-style u-grey-70 u-hover-grey-60 u-radius-4 u-text-body-alt-color u-btn-3"><span class="u-file-icon u-icon u-text-white u-icon-3"><img src="images/4699800-2581ef5b.png" alt=""></span>&nbsp;ОПЗ - 36
+        </a>
+        <a href="Розклад.html#carousel_21c7" class="u-active-grey-60 u-border-2 u-border-grey-75 u-btn u-button-style u-grey-70 u-hover-grey-60 u-radius-4 u-text-body-alt-color u-btn-4"><span class="u-file-icon u-icon u-text-white u-icon-4"><img src="images/4699800-2581ef5b.png" alt=""></span>&nbsp;кн - 46 (в/н)
+        </a>
+        <a href="Розклад.html#carousel_21c7" class="u-active-grey-60 u-border-2 u-border-grey-75 u-btn u-button-style u-grey-70 u-hover-grey-60 u-radius-4 u-text-body-alt-color u-btn-5"><span class="u-file-icon u-icon u-text-white u-icon-5"><img src="images/4699800-2581ef5b.png" alt=""></span>&nbsp;кн - 56 (в/н)
+        </a>
+      </div>
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-2" id="sec-7644">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h6 class="u-hover-feature u-text u-text-default-xs u-text-white u-text-1">ОПЗ - 16 </h6>
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-table-cell">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Понеділок</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Технології обробки <br>інформації
+                </td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Бортник<br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Математика</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Романська</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Комп'ютерні мережі</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Яцура</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="u-shape u-shape-rectangle u-white u-shape-1"></div>
+      </div>
+      
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-3" id="carousel_aa33">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-align-center-xs u-table-cell">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Вівторок</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Математика</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Романська<br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Дискретна математика</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Бортник</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Теорія алгоритмів</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Батурін</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-4" id="carousel_44fe">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-align-center-xs u-table-cell">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Середа</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Математика</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Романська<br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Дискретна математика</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Бортник</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Теорія алгоритмів</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Батурін</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">4</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Комп'ютерна схемотехніка</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Лучків</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-5" id="carousel_69d2">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-align-center-xs u-table-cell">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Четвер</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Математика</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Романська<br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Дискретна математика</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Бортник</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Теорія алгоритмів</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Батурін</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-6" id="carousel_e374">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-align-center-xs u-table-cell">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;П'ятниця</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Охорона праці в галузі</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Козулькевич<br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Чисельні методи</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Романська</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Соціологія</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Гаврилюк</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-7" id="carousel_5d7d">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
+        <h6 class="u-hover-feature u-text u-text-body-alt-color u-text-default-xs u-text-1">ОПЗ - 26 </h6>
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-table-cell">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Понеділок</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Технології захисту інформації</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Лучків<br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Соціологія</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Гаврилюк</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Математичні методи</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Бортник</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-8" id="carousel_f064">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-align-center-xs u-table-cell">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Вівторок</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Охорона праці в галузі</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Козулькевич<br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Чисельні методи</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Романська</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Соціологія</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Гаврилюк</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-9" id="carousel_95f9">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-align-center-xs u-table-cell">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Середа</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Основи філософських знань</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Боєчко<br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Розробка мобільних додатків</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Берладин</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Математичні методи</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Бортник</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-10" id="carousel_53a2">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-align-center-xs u-table-cell">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Четвер</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Економічна теорія</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Бойчук<br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Розробка мобільних додатків</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Берладин</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Фізичне виховання</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Долик</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-11" id="carousel_e33b">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-align-center-xs u-table-cell"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;П'ятниця</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Основи екології</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Козій<br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Охорона праці в галузі</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Козулькевич</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Фізичне виховання</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Долик</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-12" id="carousel_1946">
+      <div class="u-clearfix u-sheet u-valign-middle-lg u-valign-middle-md u-valign-middle-sm u-valign-middle-xl u-sheet-1">
+        <h6 class="u-hover-feature u-text u-text-body-alt-color u-text-default-xs u-text-1">ОПЗ - 36 </h6>
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-table-cell">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Понеділок</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Розробка клієнт-серверних застосувань</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Берладин<br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Розробка мобільних додатків</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Заяць <br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Математичні методи</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Бортник</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-13" id="carousel_6474">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-align-center-xs u-table-cell"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Вівторок</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Основи екології</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Козій<br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Охорона праці в галузі</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Козулькевич</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Фізичне виховання</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Долик</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-14" id="carousel_96a0">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-align-center-xs u-table-cell">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Середа</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Електротехніка та основи електроніки</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Дяків<br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Вища математика</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Романська</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Комп'ютерні мережі</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Яцура</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-15" id="carousel_f415">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-align-center-xs u-table-cell"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Четвер</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Теорія алгоритмів</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Батурін<br>
+                </td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Вища математика</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Романська</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Фізичне виховання</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Долик</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <section class="u-align-center u-black u-clearfix u-section-16" id="carousel_21c7">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-expanded-width u-table u-table-responsive u-table-1">
+          <table class="u-table-entity u-table-entity-1">
+            <colgroup>
+              <col width="2.4%">
+              <col width="64.2%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-1">
+              <tr style="height: 42px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-align-center-xs u-table-cell"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;П'ятниця</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 30px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">№</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">1</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Фізичне виховання</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Долик</td>
+              </tr>
+              <tr style="height: 76px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">2</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Теорія алгоритмів</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Батурін<br>
+                </td>
+              </tr>
+              <tr style="height: 73px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">3</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Вища математика</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Романська</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="u-shape u-shape-rectangle u-white u-shape-1"></div>
+        <div class="u-expanded-width u-table u-table-responsive u-table-2">
+          <table class="u-table-entity u-table-entity-2">
+            <colgroup>
+              <col width="22.1%">
+              <col width="44.5%">
+              <col width="33.400000000000006%">
+            </colgroup>
+            <thead class="u-table-header u-white u-table-header-2">
+              <tr style="height: 48px;">
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+                <th class="u-align-center-xs u-table-cell"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;КН 46 - 56</th>
+                <th class="u-border-1 u-border-black u-table-cell"></th>
+              </tr>
+            </thead>
+            <tbody class="u-table-body">
+              <tr style="height: 48px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">Група</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">урок</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Викладач</td>
+              </tr>
+              <tr style="height: 80px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">КН-46</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Виробниче /Практика</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Яцура</td>
+              </tr>
+              <tr style="height: 80px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell"> КН-56</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Виробниче /Практика</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell"> Яцура<br>
+                </td>
+              </tr>
+              <tr style="height: 77px;">
+                <td class="u-border-1 u-border-grey-30 u-table-cell">Н/А</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Н/А</td>
+                <td class="u-align-center-xs u-border-1 u-border-grey-30 u-table-cell">Н/А</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    
+    
+
+  
+</body></html>
