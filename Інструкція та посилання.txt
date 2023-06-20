@@ -1,0 +1,8 @@
+https://github.com/SelfDestructi0n/Duplom - репозиторій проєкту
+
+https://selfdestructi0n.github.io/Duplom/Головна.html - сайт для програми на хостингу
+(сайт адаптований тільки під мобільні пристрої)
+
+Duplom - папка з сайтом (інтерфейс)
+
+Program - папка з програмою в android studio
